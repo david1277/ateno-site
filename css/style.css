@@ -1,0 +1,314 @@
+@charset "UTF-8";
+
+/* font-family: 'Raleway', sans-serif; */ 
+
+body {
+    font-family: 'Raleway', sans-serif;
+    width: 1400px;
+    height: 900px;
+    margin-left:auto; 
+    margin-right:auto;
+   
+}
+
+ a:hover {
+    text-decoration: none;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.separator{
+    height: 2px;
+    width: 150px;
+    border: none;
+    box-shadow: none;
+    background-color:#f28a19; 
+}
+
+
+/*header*/
+.header {
+    background-color: rgba(142, 97, 165, 0.7);
+    height: 80px;
+    line-height:px;
+    margin-top: 0;
+}
+navbar-nav{
+    
+}
+.navbar-brand{
+    
+}
+
+.logo #img {
+    /*color: #f28a19;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+    float:left;*/
+    width: 10px;
+    height:10px;
+}
+
+.nav-item { 
+    left: 600px;
+}
+
+.nav-item a {
+    color: #ffffff;
+    margin-right: 20px;
+}
+.nav-item a:hover {
+    color: #f28a19;  
+}
+
+.dropdown button{
+    color: #ffffff;
+}
+
+.dropdown button:hover{
+    color:  #f28a19;
+    transition: all 1s; 
+}
+
+.dropdown-item{
+    color:#f28a19;
+    background-color: rgba(142, 97, 165, 0.7);
+    transition: all 1s; 
+}
+
+.dropdown-menu {
+		position:absolute;
+		float: ;
+        padding: 0;
+    
+}
+
+-------------------
+
+/*
+nav#navPrincipale > ul > li > a{
+    background-color:#5b0bfc;
+    color: #fff;
+    /*padding:10px;*/
+    min-height: 4rem; /* hauteur fixe pour ne pas dépendre du contenue dont la taille va changer au los*/
+    line-height: 4rem; /* ASTUCE: centrage verticale du texte, avec une hauteur de ligne égale à la hauteur du bloc, ne fonctionne que si ke texte est sur une SEUL ligne !!! */
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-right: 1px solid #fff;
+    font-size: 1.6rem;
+    font-weight: bold;
+/*  transition: all 2s, font-size 4s, background-color 1s;*/
+    transition: all 1s; 
+}
+
+nav#navPrincipale > ul > li > a:hover{
+    background-color: #7a9595;
+    color: #0f0e0e;
+    font-size: 2rem;
+}
+
+nav#navPrincipale > ul > li:last-child > a{
+    border-right:0;
+}
+
+
+*/
+
+---------------
+/*banniere*/
+.banner{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0;
+}
+
+.ban{
+    position: relative;
+}
+
+ .ban img  {
+    width: 1400px; 
+    height: 450px; 
+    object-fit: cover; 
+    opacity: 0.2;
+}
+
+.inner-banner{
+    position: relative;
+    top:-280px;
+    width: 100%;
+    text-align: center; 
+}
+
+.inner-banner h1 {
+    color: #AE1AF7;
+    text-shadow: 3px 3px 10px #AE1AF7;
+}
+
+.inner-banner .btn-custom {
+    background-color: #e627c2;
+    color: #f28a19;
+}
+
+.inner-banner .btn-custom:hover {
+    background-color: #f28a19;
+    color:  #e627c2;
+     opacity: 0.5;
+}
+
+/*about*/
+#about{
+    text-align: center; 
+    padding-top: 10px;
+}
+
+.about article h2 {
+    text-align: center;
+}
+
+.about article{
+    margin-top: %;
+    margin-bottom: 50px;
+    border: 3px blue double;
+
+}
+
+
+/*ateno*/
+.ateno {
+    background-color:  rgba(242, 138, 25, 0.54);
+}
+
+#ateno {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.ateno .item-ateno {
+    height: 100px;
+   /* background-color: #e627c2;*/
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 1em;
+    border: 3px blue outset; 
+}
+
+
+
+/*contact*/
+
+}
+.content-header{
+  font-family: 'Oleo Script', cursive;
+  color:#ffc700;
+  font-size: 45px;
+}
+
+.section-content{
+  text-align: center; 
+
+}
+.footer{
+    font-family: 'Raleway', sans-serif;
+    padding-top: 60px;
+    height: 600px;
+   
+    background: #3a6186; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, rgba(58, 97, 134, 0.6) , rgba(137, 37, 62, 0.9)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color : #f28a19; 
+    
+}
+.contact-section{
+  padding-top: 40px;
+    
+}
+.contact-section .col-md-6{
+  width: 50%;
+    
+}
+
+#contact {
+    text-align: center;
+}
+
+.form-line{
+  border-right: 5px solid #B29999;
+    
+}
+
+.form-group{
+    margin-top: 10px;
+    color: #f28a19;
+    margin: 50px;
+    
+}
+
+label{
+  font-size: 1.3em;
+  line-height: 1em;
+  font-weight: normal;
+  
+}
+.form-control{
+  font-size: 1.3em;
+  color: #080808;
+   
+}
+
+textarea.form-control {
+    height: 135px;
+    background-color : rgba(242, 138, 25, 0.7); 
+   /* margin-top: px;*/
+}
+
+.form-line input{
+    background-color: rgba(242, 138, 25, 0.7);
+}
+
+.submit{
+    font-size: 1.1em;
+    float: right;
+    width: 150px;
+    background-color: #e627c2;
+    color: #f28a19;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.submit:hover {
+    background-color: #f28a19;
+    color:  #e627c2;
+     
+}
+
+
+/*footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
