@@ -4,12 +4,36 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    width: 1400px;
+    width: 1600px;
     height: 900px;
     margin-left:auto; 
     margin-right:auto;
    
 }
+
+.accueil{
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transition: 3s;
+    position: relative;
+    text-align: center;
+    width:900px;
+    padding:30px;
+    text-align:justify;
+}
+
+
+.bloc{
+    padding:30px;
+    text-align: center;
+    width:250px;
+}
+
+.bloc p{
+   margin-bottom:20px;
+}
+
+
 
  a:hover {
     text-decoration: none;
@@ -86,39 +110,7 @@ navbar-nav{
     
 }
 
--------------------
 
-/*
-nav#navPrincipale > ul > li > a{
-    background-color:#5b0bfc;
-    color: #fff;
-    /*padding:10px;*/
-    min-height: 4rem; /* hauteur fixe pour ne pas dépendre du contenue dont la taille va changer au los*/
-    line-height: 4rem; /* ASTUCE: centrage verticale du texte, avec une hauteur de ligne égale à la hauteur du bloc, ne fonctionne que si ke texte est sur une SEUL ligne !!! */
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    border-right: 1px solid #fff;
-    font-size: 1.6rem;
-    font-weight: bold;
-/*  transition: all 2s, font-size 4s, background-color 1s;*/
-    transition: all 1s; 
-}
-
-nav#navPrincipale > ul > li > a:hover{
-    background-color: #7a9595;
-    color: #0f0e0e;
-    font-size: 2rem;
-}
-
-nav#navPrincipale > ul > li:last-child > a{
-    border-right:0;
-}
-
-
-*/
-
----------------
 /*banniere*/
 .banner{
     width: 100%;
@@ -131,7 +123,7 @@ nav#navPrincipale > ul > li:last-child > a{
 }
 
  .ban img  {
-    width: 1400px; 
+    width: 1600px; 
     height: 450px; 
     object-fit: cover; 
     opacity: 0.2;
@@ -167,14 +159,34 @@ nav#navPrincipale > ul > li:last-child > a{
 }
 
 .about article h2 {
-    text-align: center;
+    text-align:center;
+    padding:30px;
+    width:250px;   
+}
+
+#h2{
+     text-align:justify;
 }
 
 .about article{
-    margin-top: %;
     margin-bottom: 50px;
     border: 3px blue double;
+    padding:30px;
+     text-align:justify;
+}
 
+.carousel-inner{
+    border: 3px blue double;
+    padding:0px;
+    padding-top: 0px;
+    width: 450px;
+}
+ {
+     width: 250px;
+     height: 250px;
+   
+  
+   
 }
 
 /*ExpertiseConseil*/
@@ -189,6 +201,12 @@ nav#navPrincipale > ul > li:last-child > a{
     padding-top: 10px;
 }
 
+                /*.bloc{
+                    padding:30px;
+                    text-align: center;
+                    width:250px;
+                }*/
+
 /*ateno*/
 .ateno {
     background-color:  rgba(242, 138, 25, 0.54);
@@ -197,11 +215,12 @@ nav#navPrincipale > ul > li:last-child > a{
 #ateno {
     text-align: center;
     padding-top: 10px;
+    
 }
 
 .ateno .item-ateno {
     height: 100px;
-   /* background-color: #e627c2;*/
+   /*background-color: #e627c2;*/
     margin-top: 10px;
     margin-bottom: 50px;
     padding: 1em;
@@ -298,8 +317,7 @@ textarea.form-control {
 
 /*footer*/
 
-.carousel-page
-{
+.carousel-page{
 width:100%;
 height:400px;
 background-color:#5f666d;
@@ -309,6 +327,11 @@ color:white;
 
 
 
+.bloc{
+    padding:30px;
+    text-align: center;
+    width:250px;
+}
 
 
 
