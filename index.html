@@ -26,20 +26,25 @@
 
 
     <!-- header -->
-    <header class="container-fluid header">
-        <nav class="navbar navbar-expand-sm navbar-purple bg-purple">
+    <div class="container-fluid header">
+        <nav class="navbar navbar-expand-md navbar-light bg-purple fixed-top">
             <a class="logo" href="#"><img src="img/logo.png" alt="logo"
-                    style="width: 35%; height:35%; margin-left: 20px;" /></a>
+                    style="width: 50px; " /></a>
+            
+           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#responsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="responsive">
             <ul class="navbar-nav">
-                <li class="nav-item active col-md-3 col-lg-3 col-xs-12 col-sm-12">
+                <li class="nav-item active ">
                     <a class="nav-link" href="#">Accueil <span class="sr-only"></span></a>
                 </li>
-                <li class="nav-item dropdown col-md-3 col-lg-3 col-xs-12 col-sm-12">
+                <li class="nav-item dropdown">
                     <div class="dropdown">
                         <button class="btn dropdown-toggle botton" href="#" data-toggle="dropdown">
                             Activités
                         </button>
-                        <div class="dropdown-menu">
+                        <div class="dropdown-menu" >
                             <a class="dropdown-item" href="#CoachingAgile">Coaching Agile</a>
                             <a class="dropdown-item" href="#">Facilitation</a>
                             <a class="dropdown-item" href="#ExpertiseConseil">Epertise &amp; Conseil</a>
@@ -47,25 +52,27 @@
                             <a class="dropdown-item" href="#">Extra</a>
                         </div>
                     </div>
+                    
                 </li>
-                <li class="nav-item col-md-3 col-lg-3 col-xs-12 col-sm-12">
+                <li class="nav-item">
                     <a class="nav-link" href="#ateno">Galerie</a>
                 </li>
-                <li class="nav-item col-md-3 col-lg-3 col-xs-12 col-sm-12">
+                <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
-                </li>
+                </li>                
             </ul>
+            </div>
         </nav>
 
 
-    </header>
+    </div>
     <!--  end header -->
 
 
     <!--  bannière -->
     <section class="container-fluid banner">
         <div class="ban">
-            <img src="img/ban.jpg" alt="banière de site" />
+            <img src="img/baniere.jpg" alt="banière de site" />
         </div>
         <div class="inner-banner">
             <h1> Bienvenue sur le site de Ateno-Tech </h1>

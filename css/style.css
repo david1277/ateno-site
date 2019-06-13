@@ -23,22 +23,7 @@ body {
 }
 
 
-.bloc{
-    padding:30px;
-    text-align: center;
-    width:250px;
-}
-
-.bloc p{
-   margin-bottom:20px;
-}
-
-
-
- a:hover {
-    text-decoration: none;
-}
-
+ 
 .container-fluid {
     padding: 0;
 }
@@ -53,17 +38,10 @@ body {
 
 
 /*header*/
-.header {
-    background-color: rgba(142, 97, 165, 0.7);
-    height: 80px;
-    line-height:px;
-    margin-top: 0;
-}
-navbar-nav{
-    
-}
-.navbar-brand{
-    
+
+
+.navbar{
+     background-color: rgba(142, 97, 165, 0.7);
 }
 
 .logo #img {
@@ -74,10 +52,6 @@ navbar-nav{
     float:left;*/
     width: 10px;
     height:10px;
-}
-
-.nav-item { 
-    left: 600px;
 }
 
 .nav-item a {
@@ -127,6 +101,7 @@ navbar-nav{
     height: 450px; 
     object-fit: cover; 
     opacity: 0.2;
+    padding-top: 60px;
 }
 
 .inner-banner{
@@ -201,11 +176,6 @@ navbar-nav{
     padding-top: 10px;
 }
 
-                /*.bloc{
-                    padding:30px;
-                    text-align: center;
-                    width:250px;
-                }*/
 
 /*ateno*/
 .ateno {
@@ -327,17 +297,97 @@ color:white;
 
 
 
-.bloc{
-    padding:30px;
-    text-align: center;
-    width:250px;
+/*
+@media (max-width: 803px) { /* Remplacez 123px par la taille de votre choix */
+/*.container-fluid header {
+float: none;
 }
+.navbar-toggle {
+display: block;
+}
+.navbar-collapse {
+border-top: 1px solid transparent;
+box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+}
+.navbar-collapse.collapse {
+display: none!important;
+}
+.navbar-nav {
+float: none!important;
+margin: 7.5px -15px;
+}
+.navbar-nav>li {
+float: none;
+}
+.navbar-nav>li>a {
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.navbar-text {
+float: none;
+margin: 15px 0;
+}
+/* cette classe est à ajouter lorsque que vous utilisez une version de Bootstap supérieure ou égale à la 3.1.0 */
+/*.navbar-collapse.collapse.in {
+display: block!important;
+}
+.collapsing {
+overflow: hidden!important;
+}
+}*/
 
 
 
+@media screen and (max-width: 768px) {
+     header{
+        background-color: rgba(142, 97, 165, 0.7);
+        line-height:px;
+        width:180px;
+        height:auto;
+        background:none;
+        display:flex;
+        flex-direction: column-reverse
+    }
 
+    .ban img{
+        width:180px;
+        height:auto;
+    }
 
+    header .boutonMenu{
+        width:70px;
+        padding:8px;
+        text-align: left;
+    }
 
+    header nav{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        line-height: auto;
+        height:auto;
+        background-color: rgba(142, 97, 165, 0.7);
+        margin-top:-200px;
+        opacity:0;
+    }
+    header nav.rentre{margin-top:-184px;}
+
+    header:hover nav{
+        margin-top:0px;
+        opacity:1;
+    }
+    header nav a:first-child{
+        width:180px;
+        height:28px;
+       background-size: contain;
+    }
+    .separateur,.separateur2,.separateur3{
+        height:180px;
+    }
+    h1{font-size:1.4em;}
+    h2{font-size:1.1em;}
+    footer{font-size:0.7em;}
+}
 
 
 
