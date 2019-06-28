@@ -110,9 +110,13 @@ body {
     max-width:900px;
     padding:20px;
     text-align:justify;
+   
 }
 
-
+.scroll{
+  
+  
+}
 
 .about{
     background-color: rgba(230, 39, 194, 0.54);
