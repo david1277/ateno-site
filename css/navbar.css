@@ -21,4 +21,39 @@
 		position: relative;
 		float: none;
 	}
+ 
+}
+
+@media (min-width: 768px) {
+	
+    .accueil{
+        margin-bottom: 70px;
+    }
+}
+
+@media (min-width: 414px) {
+	
+    .accueil{
+        margin-bottom: 80px;
+    }
+}
+
+
+
+@media (max-width: 375px) {
+    .scroll{
+    width: 700px;
+    height: 350px;
+    margin-top: 230px;
+  
+}
+}
+
+@media (max-width: 320px) {
+    .scroll{
+    width: 700px;
+    height: 350px;
+    margin-top: 290px;
+  
+}
 }
