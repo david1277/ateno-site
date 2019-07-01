@@ -416,14 +416,7 @@
                     </div>
                 </div>
             </form>
-            <div class="alert alert-success alert-dismissible fade">
-                <button type="button" class="close" data-dismiss="alert">&times;</button>
-                <strong>Dark!</strong> Dark grey alert.
-            </div>
-            <div class="alert alert-info alert-dismissible fade">
-                <button type="button" class="close" data-dismiss="alert">&times;</button>
-                <strong>Light!</strong> Light grey alert.
-            </div>                
+            <div id="alert"></div>          
         </div>
     </div>
              
@@ -536,6 +529,18 @@
     firebase.initializeApp(firebaseConfig);
     var db = firebase.firestore();
 
+    //Display alert msg
+    function showAlert(obj){
+        var html = '<div class="alert alert-' + obj.class + ' alert-dismissible" role="alert">'+
+            '   <strong>' + obj.message + '</strong>'+
+            '       <button class="close" type="button" data-dismiss="alert" aria-label="Close">'+
+            '           <span aria-hidden="true">×</span>'+
+            '       </button>'
+            '   </div>';
+
+        $('#alert').append(html);
+    }
+
     //create a functions to push
     function firebasePush(inputName, inputEmail, inputPhone, inputMessage) {
 
@@ -553,9 +558,9 @@
                 message: inputMessage.value
             }
         ).then(function(docRef) {
-            console.log("Document written with ID: ", docRef.id);
+            showAlert({message: 'Message envoyé', class:"info"});
         }).catch(function(error) {
-            console.error("Error adding document: ", error);
+            showAlert({message: 'Erreur : '+error, class:"danger"});
         });
     }
 
@@ -564,9 +569,6 @@
         form.addEventListener('submit', function (evt) {
             evt.preventDefault();
             firebasePush(inputName, inputEmail, inputPhone, inputMessage);
-
-            //shows alert if everything went well.
-            return alert('Data Successfully Sent to Realtime Database');
         })
     }
     </script>
