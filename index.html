@@ -549,10 +549,13 @@
             firebase.initializeApp(firebaseConfig);
         }
 
+        var date = new Date();
+
         //push itself
         db.collection('messages').add(
             {
                 name: inputName.value,
+                date: date.toGMTString(),
                 mail: inputEmail.value,
                 phone: inputPhone.value,
                 message: inputMessage.value
