@@ -1,4 +1,5 @@
 // Make default navbar links display block at choosen breakpoint and adjust styles to fit...
+
 @media (max-width: 768px) {
 	.navbar-nav {
 		padding-top: .425rem;
@@ -21,39 +22,97 @@
 		position: relative;
 		float: none;
 	}
+    .titre {
+        padding-top: 100px !important;
+        
+    }
  
 }
+
+@media (min-width: 1024px) {
+     .titre {
+       
+        }
+     .accueil{
+        margin-bottom: ;
+        margin-top: -50px !important;
+    }
+    .scroll{
+        margin-top: -50px !important;
+    }
+}
+
+
 
 @media (min-width: 768px) {
 	
     .accueil{
         margin-bottom: 70px;
+        margin-top: -200px !important;
     }
+    .inner-banner{
+        margin-top: -80px;
+    }
+    .scroll{
+        margin-top: -150px !important;
+    }
+    .titre {
+        padding-top: 150px !important;
+        
+    }
+
 }
 
-@media (min-width: 414px) {
+
+
+@media (min-width: 411px) {
 	
     .accueil{
         margin-bottom: 80px;
+        margin-top: -150px;
+    }
+     
+    .titre {
+        font-size: 0.8em;
+         margin-top: 2px;
+    }
+    
+    .inner-banner img {
+        width: 9em !important; 
     }
 }
 
 
 
 @media (max-width: 375px) {
-    .scroll{
-    width: 700px;
-    height: 350px;
-    margin-top: 230px;
-  
-}
+   .accueil{
+        margin-bottom: 80px;
+        margin-top: -130px;
+    }
+     .titre {
+        font-size: 0.5em;
+         margin-top: 10px;
+    }
+    .inner-banner img {
+        width: 9em !important; 
+    }
 }
 
 @media (max-width: 320px) {
     .scroll{
-    width: 700px;
-    height: 350px;
-    margin-top: 290px;
+        width: 700px;
+        height: 350px;
+        margin-top: 290px;
   
-}
+    }
+    .accueil{
+        margin-bottom: 80px;
+        margin-top: -150px;
+    }
+     .titre {
+     
+    }
+    .inner-banner img {
+        width: 9em !important; 
+    }
 }
