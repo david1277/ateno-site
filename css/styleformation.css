@@ -1,0 +1,68 @@
+.accordion h5{ 
+    text-align: center;
+    font-weight: bold;
+}
+.accordion{
+    text-align: center;
+}
+
+.btn-link{
+   
+    background-color:#d847f4;
+
+}
+
+
+
+.btn-link {
+    font-weight: 400;
+    color: var(--white);
+    text-decoration: none;
+    text-align: center !important;
+}
+
+.btn-link:hover {
+    color: var(--white);
+    text-decoration: underline;
+}
+.card{
+    border: 0px solid var(--indigo);
+}
+
+.card-body{
+    background-color: #f18aa8;  
+    
+}
+
+.card-header{
+
+background-color: #cf1df2cf;
+
+
+}
+
+.separator2{
+    height: 2px;
+    width: 150px;
+    background-color:#f28a19; 
+    margin-bottom: 0;
+   
+}
+
+
+.h2{
+background-color: #673cc4;
+
+}
+
+.formation {
+    background-color:  #cf1df2cf;
+    text-align: center;
+}
+
+
+#button h4 {
+    background-color:  #cf1df2cf;
+    text-align: center;
+}
+

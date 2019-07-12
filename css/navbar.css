@@ -1,4 +1,4 @@
-// Make default navbar links display block at choosen breakpoint and adjust styles to fit...
+/* Make default navbar links display block at choosen breakpoint and adjust styles to fit...*/
 
 @media (max-width: 768px) {
 	.navbar-nav {
