@@ -9,7 +9,7 @@
 .btn-link{
    
     background-color:#d847f4;
-
+    text-align: center;
 }
 
 /* Drop-down programs */
@@ -22,16 +22,19 @@
     font-weight: 400;
     color: var(--white);
     text-decoration: none;
-    text-align: center !important;
+    text-align: center ;
 }
 
 .btn-link:hover {
     color: var(--white);
     text-decoration: underline;
+    text-align: center;
 }
-.card{
+.card {
     border: 0px solid var(--indigo);
+    text-align:left;
 }
+
 
 .card-body{
     background-color: #f18aa8;  
@@ -39,7 +42,7 @@
 }
 
 .card-header{
-
+ 
 background-color: #cf1df2cf;
 
 
@@ -69,4 +72,11 @@ background-color: #673cc4;
     background-color:  #cf1df2cf;
     text-align: center;
 }
+.h5{
+text-align: center;
+}
 
+.exercices{
+    list-style: none;
+    
+}
