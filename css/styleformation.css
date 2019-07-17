@@ -12,7 +12,11 @@
 
 }
 
-
+/* Drop-down programs */
+[aria-expanded="false"] .fa-chevron-circle-up, 
+[aria-expanded="true"] .fa-chevron-circle-down {
+    display:none;
+}
 
 .btn-link {
     font-weight: 400;
