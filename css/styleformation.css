@@ -7,7 +7,6 @@
 }
 
 .btn-link{
-   
     background-color:#d847f4;
     text-align: center;
 }
@@ -42,10 +41,7 @@
 }
 
 .card-header{
- 
-background-color: #cf1df2cf;
-
-
+    background-color: #cf1df2cf;
 }
 
 .separator2{
@@ -57,9 +53,13 @@ background-color: #cf1df2cf;
 }
 
 
-.h2{
-background-color: #673cc4;
+h2#contact{
+    font-family: 'Raleway', sans-serif   
+}
 
+
+.h2{
+    background-color: #673cc4;
 }
 
 .formation {
@@ -73,7 +73,7 @@ background-color: #673cc4;
     text-align: center;
 }
 .h5{
-text-align: center;
+    text-align: center;
 }
 
 .exercices{

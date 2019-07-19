@@ -30,12 +30,12 @@
      .titre {
         padding-top: -50em;
         margin-top: 70px !important;
-         font-size: 10px !important;
+        font-size: 10px !important;
     }
     .inner-banner img {
         margin-top: 40px !important;
     }
-     .accueil{
+    .accueil{
         margin-bottom: -50px;
         margin-top: -280px !important;
     }
@@ -54,7 +54,7 @@
       
     }
     .inner-banner img {
-         width: 100px;
+        width: 100px;
         margin-top: 40px !important; 
     }
      .accueil{

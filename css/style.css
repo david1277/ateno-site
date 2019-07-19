@@ -149,7 +149,7 @@ body {
 }
 
 #h2{
-     text-align:justify;
+     text-align:center;
 }
 
 .about article{
@@ -175,16 +175,25 @@ body {
 
 /*ExpertiseConseil*/
 #ExpertiseConseil{
-    text-align: center; 
+    text-align:center; 
     padding-top: 10px;
 }
 
 /*CoachingAgile*/
 #CoachingAgile{
-    text-align: center; 
+    text-align:center; 
     padding-top: 10px;
 }
-
+/*#Facilitation*/
+#Facilitation{
+    text-align:center; 
+    padding-top: 10px;  
+}
+/*#Nous*/
+#Nous{
+    text-align:center; 
+    padding-top: 10px;    
+}
 
 /*galérie*/
 .ateno {
@@ -219,12 +228,14 @@ body {
      margin-left: -9px
 }
 
+
+
+
 /*contact*/
 .content-header{
-  font-family:  'Raleway', sans-serif;
+  font-family:'Raleway', sans-serif;
   color:#ffc700;
   font-size: 45px;
-    
 }
 
 .section-content{
@@ -232,7 +243,7 @@ body {
 
 }
 
-.divContact{
+.divContact {
     font-family: 'Raleway', sans-serif;
     padding-top: 60px;
     height: auto;
@@ -246,7 +257,7 @@ body {
 }
 .contact-section{
   padding-top: 40px;
-    
+  
 }
 .contact-section .col-md-6{
   width: 50%;
@@ -256,7 +267,9 @@ body {
 
 #contact {
     text-align: center;
+    
 }
+
 
 .form-line{
     border-right: 5px solid #B29999;
