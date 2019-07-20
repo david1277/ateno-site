@@ -7,9 +7,7 @@ body {
     max-width: 1600px;
     margin-left:auto; 
     margin-right:auto;
-   
 }
-
 
 .container-fluid {
     padding: 0;
@@ -21,15 +19,12 @@ body {
     border: none;
     box-shadow: none;
     background-color:#f28a19; 
-    
 }
 
 
 /*header*/
-
-
 .navbar{
-    background-color: rgba(142, 97, 165, 0.7);
+    background-color: rgba(142, 97, 165, 0.7);    
 }
 
 
@@ -59,7 +54,7 @@ body {
 }
 
 .dropdown-menu {
-    position:absolute;
+    /* position:absolute; */
     padding: 0;
     opacity: 0.7;
     background-color: rgba(142, 97, 165, 0.7) !important;
@@ -138,7 +133,7 @@ body {
 #about{
    /* background-color: #cf1df2cf;*/
     text-align: center; 
-    padding-top: 10px;
+    padding-top: 3em;
   
 }
 
@@ -154,45 +149,49 @@ body {
 
 .about article{
     margin-bottom: 50px;
-    border: 3px blue double;
+    border: 3px;
     padding:30px;
     text-align:justify;
 }
 
 .carousel-inner{
-    border: 3px blue double;
+    border: 3px;
     padding:0px;
     padding-top: 0px;    
 }
 
-.carousel-item img{
-    width:auto;
-    height:auto ;
-    
-    color:#ffffff;
+.carousel-item img {
+	height: 300px;
+	width: 400px;
+    border-radius: 25px;
+	background-color: rgba(0,0,0,0.6);
+	text-align: center;
+	font-size: 11em;
+	color: #fff;
 }
+
 
 
 /*ExpertiseConseil*/
 #ExpertiseConseil{
     text-align:center; 
-    padding-top: 10px;
+    padding-top: 3em;
 }
 
 /*CoachingAgile*/
 #CoachingAgile{
     text-align:center; 
-    padding-top: 10px;
+    padding-top: 3em;
 }
 /*#Facilitation*/
 #Facilitation{
     text-align:center; 
-    padding-top: 10px;  
+    padding-top: 3em;
 }
 /*#Nous*/
 #Nous{
     text-align:center; 
-    padding-top: 10px;    
+    padding-top: 3em;    
 }
 
 /*galérie*/
@@ -203,8 +202,7 @@ body {
 
 #ateno {
     text-align: center;
-    padding-top: 10px;
-    
+    padding-top: 3em; 
 }
 
 .ateno .item-ateno {
@@ -245,7 +243,6 @@ body {
 
 .divContact {
     font-family: 'Raleway', sans-serif;
-    padding-top: 60px;
     height: auto;
     background: #3a6186; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
@@ -255,19 +252,14 @@ body {
 
  
 }
-.contact-section{
-  padding-top: 40px;
-  
-}
+
 .contact-section .col-md-6{
   width: 50%;
-    
-    
 }
 
 #contact {
     text-align: center;
-    
+    padding-top: 3em;
 }
 
 
