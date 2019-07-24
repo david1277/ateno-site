@@ -18,7 +18,8 @@ body {
     width: 150px;
     border: none;
     box-shadow: none;
-    background-color:#f28a19; 
+    background-color:#f28a19;
+    margin-top: -10px;
 }
 
 
@@ -126,18 +127,17 @@ body {
 
 
 .about{
-   background-color: rgba(230, 39, 194, 0.54);
-   
+    background-color: rgba(230, 39, 194, 0.54);   
 }
 
+ 
 #about{
    /* background-color: #cf1df2cf;*/
     text-align: center; 
     padding-top: 3em;
-  
 }
 
-.about article h2 {
+.about article h3 {
     text-align:center;
     padding:30px;
     width:250px;   
@@ -148,7 +148,7 @@ body {
 }
 
 .about article{
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     border: 3px;
     padding:30px;
     text-align:justify;
@@ -157,25 +157,29 @@ body {
 .carousel-inner{
     border: 3px;
     padding:0px;
-    padding-top: 0px;    
+    padding-top: 0px;
+    display: flex;
+    align-items: center;
 }
 
 .carousel-item img {
-	height: 300px;
-	width: 400px;
+	height: 200px;
+    width: 350px;
     border-radius: 25px;
 	background-color: rgba(0,0,0,0.6);
-	text-align: center;
 	font-size: 11em;
-	color: #fff;
+    color: #fff;
 }
-
-
 
 /*ExpertiseConseil*/
 #ExpertiseConseil{
     text-align:center; 
     padding-top: 3em;
+}
+ 
+.ExpertiseConseil{
+    background-color: rgba(230, 39, 194, 0.24);
+    padding-bottom: 3em; 
 }
 
 /*CoachingAgile*/
@@ -183,11 +187,35 @@ body {
     text-align:center; 
     padding-top: 3em;
 }
+
+.CoachingAgile{
+    background-color: rgba(230, 39, 194, 0.24);   
+    padding-bottom: 3em; 
+}
+
+
 /*#Facilitation*/
 #Facilitation{
     text-align:center; 
     padding-top: 3em;
 }
+
+.Facilitation{
+    background-color: rgba(230, 39, 194, 0.54);   
+    padding-bottom: 3em; 
+}
+
+/*#Formations*/
+#Formations{
+    text-align:center; 
+    padding-top: 3em;
+}
+
+.Formations{
+    background-color: rgba(230, 39, 194, 0.01);   
+    padding-bottom: 50px;
+}
+
 /*#Nous*/
 #Nous{
     text-align:center; 
@@ -303,7 +331,7 @@ textarea.form-control {
     float: right;
     width: 150px;
     background-color: #e627c2;
-    color: #f28a19;
+    color: #fff;
     margin-top: 10px;
     margin-right: 30px;
     margin-bottom: 30px;
