@@ -7,8 +7,12 @@
 }
 
 .btn-link{
-    background-color:#d847f4;
+    background-color:rgba(142, 97, 165, 0.7);
     text-align: center;
+}
+
+.i-formation {
+    margin-left: 20px;
 }
 
 /* Drop-down programs */
@@ -36,12 +40,8 @@
 
 
 .card-body{
-    background-color: #f18aa8;  
+    background-color: rgba(230, 39, 194, 0.24);  
     
-}
-
-.card-header{
-    background-color: #cf1df2cf;
 }
 
 .separator2{
@@ -52,26 +52,10 @@
    
 }
 
-
 h2#contact{
     font-family: 'Raleway', sans-serif   
 }
 
-
-.h2{
-    background-color: #673cc4;
-}
-
-.formation {
-    background-color:  #cf1df2cf;
-    text-align: center;
-}
-
-
-#button h4 {
-    background-color:  #cf1df2cf;
-    text-align: center;
-}
 .h5{
     text-align: center;
 }

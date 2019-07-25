@@ -7,9 +7,7 @@ body {
     max-width: 1600px;
     margin-left:auto; 
     margin-right:auto;
-   
 }
-
 
 .container-fluid {
     padding: 0;
@@ -20,16 +18,14 @@ body {
     width: 150px;
     border: none;
     box-shadow: none;
-    background-color:#f28a19; 
-    
+    background-color:#f28a19;
+    margin-top: -10px;
 }
 
 
 /*header*/
-
-
 .navbar{
-    background-color: rgba(142, 97, 165, 0.7);
+    background-color: rgba(142, 97, 165, 0.7);    
 }
 
 
@@ -59,7 +55,7 @@ body {
 }
 
 .dropdown-menu {
-    position:absolute;
+    /* position:absolute; */
     padding: 0;
     opacity: 0.7;
     background-color: rgba(142, 97, 165, 0.7) !important;
@@ -131,18 +127,17 @@ body {
 
 
 .about{
-   background-color: rgba(230, 39, 194, 0.54);
-   
+    background-color: rgba(230, 39, 194, 0.54);   
 }
 
+ 
 #about{
    /* background-color: #cf1df2cf;*/
     text-align: center; 
-    padding-top: 10px;
-  
+    padding-top: 3em;
 }
 
-.about article h2 {
+.about article h3 {
     text-align:center;
     padding:30px;
     width:250px;   
@@ -153,46 +148,78 @@ body {
 }
 
 .about article{
-    margin-bottom: 50px;
-    border: 3px blue double;
+    /* margin-bottom: 50px; */
+    border: 3px;
     padding:30px;
     text-align:justify;
 }
 
 .carousel-inner{
-    border: 3px blue double;
+    border: 3px;
     padding:0px;
-    padding-top: 0px;    
+    padding-top: 0px;
+    display: flex;
+    align-items: center;
 }
 
-.carousel-item img{
-    width:auto;
-    height:auto ;
-    
-    color:#ffffff;
+.carousel-item img {
+	height: 200px;
+    width: 350px;
+    border-radius: 25px;
+	background-color: rgba(0,0,0,0.6);
+	font-size: 11em;
+    color: #fff;
 }
-
 
 /*ExpertiseConseil*/
 #ExpertiseConseil{
     text-align:center; 
-    padding-top: 10px;
+    padding-top: 3em;
+}
+ 
+.ExpertiseConseil{
+    background-color: rgba(230, 39, 194, 0.24);
+    padding-bottom: 3em; 
 }
 
 /*CoachingAgile*/
 #CoachingAgile{
     text-align:center; 
-    padding-top: 10px;
+    padding-top: 3em;
 }
+
+.CoachingAgile{
+    background-color: rgba(230, 39, 194, 0.24);   
+    padding-bottom: 3em; 
+}
+
+
 /*#Facilitation*/
 #Facilitation{
     text-align:center; 
-    padding-top: 10px;  
+    padding-top: 3em;
 }
+
+.Facilitation{
+    background-color: rgba(230, 39, 194, 0.54);   
+    padding-bottom: 3em; 
+}
+
+/*#Formations*/
+#Formations{
+    text-align:center; 
+    padding-top: 3em;
+}
+
+.Formations{
+    background-color: rgba(230, 39, 194, 0.01);   
+    padding-bottom: 50px;
+}
+
 /*#Nous*/
 #Nous{
     text-align:center; 
-    padding-top: 10px;    
+    padding-top: 3em;    
 }
 
 /*galérie*/
@@ -207,8 +234,7 @@ body {
 
 #ateno {
     text-align: center;
-    padding-top: 10px;
-    
+    padding-top: 3em; 
 }
 
 .ateno .item-ateno {
@@ -269,8 +295,6 @@ body {
 }
 .contact-section .col-md-6{
   width: 50%;
-    
-    
 }
 
 #contact {
@@ -325,7 +349,7 @@ textarea.form-control {
     float: right;
     width: 150px;
     background-color: #e627c2;
-    color: #f28a19;
+    color: #fff;
     margin-top: 10px;
     margin-right: 30px;
     margin-bottom: 30px;
