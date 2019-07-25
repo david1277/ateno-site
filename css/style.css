@@ -201,6 +201,10 @@ body {
     max-width: 1600px;
 }
 
+.ateno .separator{
+   margin-top: -10px;
+}
+
 #ateno {
     text-align: center;
     padding-top: 10px;
@@ -227,7 +231,9 @@ body {
 .aline-self-end{
      margin-left: -9px
 }
-
+.row {
+    margin-top: 70px;
+}
 
 
 
@@ -244,17 +250,19 @@ body {
 }
 
 .divContact {
-    font-family: 'Raleway', sans-serif;
+    font-family : 'Raleway', sans-serif;
     padding-top: 60px;
     height: auto;
     background: #3a6186; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, rgba(58, 97, 134, 0.6) , rgba(137, 37, 62, 0.9)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color : #f28a19; 
-    
-
- 
 }
+
+ .divContact .separator{
+     margin-top: -70px;
+ }
+
 .contact-section{
   padding-top: 40px;
   
@@ -267,7 +275,7 @@ body {
 
 #contact {
     text-align: center;
-    
+    font-family : 'Raleway', sans-serif; 
 }
 
 
@@ -281,7 +289,13 @@ body {
     margin-right: 30px;
     margin-left: 30px;
     color: #f28a19; 
- 
+}
+
+
+
+
+.contact-form {
+    margin-top: -40px;
 }
 
 label{
